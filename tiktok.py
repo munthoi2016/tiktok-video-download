@@ -14,7 +14,7 @@ SEARCH_API = "https://tikwm.com/api/feed/search"
 DETAIL_API = "https://tikwm.com/api/"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
-openai.api_key = "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"  # ✅ Nhập OpenAI API Key của bạn tại đây
+openai.api_key = ""  # ✅ Nhập OpenAI API Key của bạn tại đây
 
 CAPTION_BACKENDS = ["openai", "gemini", "cohere"]
 
